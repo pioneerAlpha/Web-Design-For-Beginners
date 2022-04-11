@@ -1,0 +1,67 @@
+/* div p{
+    color: red;
+} */
+
+/* div > p{
+    color: yellow;
+} */
+
+/* div + p{
+    background-color: yellow;
+} */
+/* div~p{
+    background-color: aqua;
+} */
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: blue;
+}
+h1.heading:hover{
+    color: aqua;
+}
+/* div p{
+    display: none;
+}
+div:hover p{
+    display: block;
+} */
+p:first-child{
+    background-color: red;
+}
+/* p i:first-child{
+    color: green;
+} */
+p:first-child i{
+    color: green;
+}
+q:lang(no){
+    quotes: "~" "~";
+}
+p.para::first-line{
+    color: blue;
+}
+p.para::first-letter{
+    font-size: xx-large;
+    color: green;
+}
+/* p.para::before{
+    content: url(smiley.gif);
+} */
+p.para::after{
+    content: url(smiley.gif);
+}
+::marker{
+    color: red;
+}
+::selection{
+    color: green;
+    background-color: yellow;
+}
