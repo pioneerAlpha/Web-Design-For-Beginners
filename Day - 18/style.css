@@ -1,0 +1,96 @@
+div{
+    font-family: Rancho;
+    color: red;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+img.a{
+    vertical-align: baseline;
+}
+img.b{
+    vertical-align: text-top;
+}
+img.c{
+    vertical-align: middle;
+}
+img.d{
+    vertical-align: sub;
+}
+img.e{
+    vertical-align: super;
+}
+.jst{
+    border: 3px solid green;
+    width: 300px;
+    /* text-align: justify; */
+    text-align-last: right;
+}
+.ind{
+    text-indent: 50px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    word-spacing: 10px;
+    white-space: nowrap;
+}
+.p-1{
+    /* font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: larger; */
+    /* font-family: 'Beau Rivage', cursive;
+    text-shadow: 3px 3px 3px #ababab; */
+    font: italic small-caps bold 20px/10px serif;
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-thickness: 10px;
+}
+.p-2{
+    /* font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px; */
+    font-family: 'Grape Nuts', cursive;
+    text-align: right;
+    /* text-decoration-line: underline; */
+    text-decoration: underline green dashed 5px;
+    text-transform: uppercase;
+}
+.p-3{
+    /* font-family: monospace;
+    font-size: 3em; */
+    font-family: 'Rubik Moonrocks', cursive;
+    text-align: justify;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration-line: line-through;
+}
+.p-4{
+    font-family: cursive;
+    font-size: 200%;
+    text-decoration-line: underline overline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-shadow: 3px 3px 3px red;
+}
+.p-5{
+    font-family: fantasy;
+    font-size: 10vw;
+}
+.p-6{
+    font-family: Arial, sans-serif;
+}
+.p-7{
+    font-family: verdana, sans-serif;
+}
+.p-8{
+    font-family: Helvetica, sans-serif;
+}
+.p-9{
+    font-family: Tahoma, sans-serif;
+}
+.p-10{
+    font-family: Trebuchet, sans-serif;
+}
