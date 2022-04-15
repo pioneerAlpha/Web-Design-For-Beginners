@@ -1,0 +1,116 @@
+/* h1{
+    color: white;
+    text-shadow: 2px 2px 5px #000, 0px 0px 5px red, 0px 0px 5px green;
+} */
+/* div{
+    background-color: tomato;
+    height: 200px;
+    width: 200px;
+    color: white;
+    padding: 100px;
+    box-shadow: 10px 10px 5px 20px lightblue inset;
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+} */
+/* 
+div.card{
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+}
+div.header{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
+}
+div.container{
+    padding: 10px;
+}
+
+p.test-1{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000;
+    overflow: hidden;
+    text-overflow: clip;
+    writing-mode:vertical-rl;
+}
+p.test-2{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p.test-1:hover, p.test-2:hover{
+    overflow: visible;
+}
+p.test{
+    width: 11em;
+    border: 1px solid #000;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+div.translate{
+    width: 300px;
+    height: 150px;
+    background-color: yellow;
+    border: 1px solid black; */
+    /* transform: translate(50px, 100px); */
+    /* transform: rotate(-20deg); */
+    /* transform: scale(0.5, 0.5); */
+    /* transform: scaleX(0.5); */
+    /* transform: scaleY(0.5); */
+    /* transform: skewX(20deg); */
+    /* transform: skewY(20deg); */
+    /* transform: skew(20deg); */
+    /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+    /* matrix(scaleX, skewY, skewX, scaleY, translateX, translateY) */
+    /* transform: rotateX(150deg); */
+    /* transform: rotateY(150deg); */
+    /* transform: rotateZ(90deg);
+} */
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* animation-name: example; */
+    /* animation-duration: 4s; */
+    position: relative;
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-fill-mode: backwards;
+    animation-timing-function: ease-in; */
+    /* animation-delay: -2s; */
+    /* transition: width 2s, transform 2s;
+    margin-bottom: 10px;
+    transition-delay: 0.2s; */
+    animation: example 4s ease-in 1s infinite alternate backwards;
+}
+@keyframes example{
+    0% {background-color: green; left: 0px; top: 0px;}
+    /* 25% {background-color: yellow;  left: 200px; top: 0px;}
+    50% {background-color: green; left: 200px; top: 200px;}
+    75% {background-color: blue; left: 0px; top: 200px;} */
+    100% { left: 0px; top: 200px;}
+}
+/* div:hover{
+    transform: rotate(-20deg);
+    width: 300px;
+}
+#div1{
+    transition-timing-function: linear;
+}
+#div2{
+    transition-timing-function: ease;
+}
+#div3{
+    transition-timing-function: ease-in;
+}
+#div4{
+    transition-timing-function: ease-out;
+}
+#div5{
+    transition-timing-function: ease-in-out;
+} */
