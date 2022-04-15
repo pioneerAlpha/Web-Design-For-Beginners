@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            /* background-image: url("img_chania.jpg"); */
+        }
+        @media only screen and (max-width : 600px){
+            body{
+                /* background-image: url("img_flowers.jpg"); */
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <picture>
+        <source srcset="img_flowers.jpg" media="(max-width:400px)">
+        <source srcset="img_chania.jpg">
+        <img src="img_chania.jpg">
+    </picture>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorum laboriosam mollitia harum asperiores libero, voluptate vitae sit iure quos debitis dicta. Commodi soluta provident iure laudantium praesentium facere magnam!</p>
+</body>
+</html>
